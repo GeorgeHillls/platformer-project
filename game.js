@@ -1,7 +1,5 @@
 function game() {
   noStroke();
-  background(150, 200, 230);
-  
 
   //ground
   stroke(1);
@@ -13,7 +11,7 @@ function game() {
     Math.ceil(windowHeight / 6)
   );
 
-  //a platform
+  //start platform
   stroke(0);
   strokeWeight(8);
   fill(255, 125, 50);
@@ -23,6 +21,5 @@ function game() {
   stroke(0);
   strokeWeight(1);
   fill(255, 255, 255);
-  //noStroke()
   Player = rect(p1x, p1y, pW, pH);
 }
